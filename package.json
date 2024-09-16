@@ -1,0 +1,10 @@
+{
+  "name": "your-monorepo",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna run start --scope container --scope app1 --scope app2"
+  }
+}

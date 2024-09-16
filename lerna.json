@@ -1,0 +1,4 @@
+{
+  "packages": ["packages/container", "packages/app1", "packages/app2"],
+  "version": "0.0.0"
+}
