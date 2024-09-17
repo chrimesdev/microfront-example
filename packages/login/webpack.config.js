@@ -5,15 +5,18 @@ const ModuleFederationPlugin =
 module.exports = {
   mode: "development",
   devServer: {
-    port: 8080,
+    port: 8083,
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "container",
+      name: "login",
+      filename: "remoteEntry.js",
+      exposes: {
+        "./Login": "./src/index",
+      },
       remotes: {
         app1: "app1@http://localhost:8081/remoteEntry.js",
         app2: "app2@http://localhost:8082/remoteEntry.js",
-        login: "login@http://localhost:8083/remoteEntry.js",
       },
     }),
     new HtmlWebpackPlugin({

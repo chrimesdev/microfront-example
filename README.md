@@ -2,11 +2,10 @@
 
 Example of a Microfrontend application.
 
-- `app1` containers a Header component
-- `app2` containers a Footer component
-- `container` brings these 2 components into 1 application with a Dashboard page
-
-The 3 applications are seperate applications that can be run independently and exist in their own repository.
+- `app1` containers a Header
+- `app2` containers a Footer
+- `login` contains a Login form which consumes the Header and Footer from `app1` and `app2`
+- `container` brings these 3 applications into 1, on a Dashboard page
 
 ## Running the applications
 
