@@ -9,10 +9,10 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "app1",
+      name: "header",
       filename: "remoteEntry.js",
       exposes: {
-        "./App1": "./src/index",
+        "./Header": "./src/index",
       },
     }),
     new HtmlWebpackPlugin({

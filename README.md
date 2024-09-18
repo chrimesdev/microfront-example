@@ -2,9 +2,9 @@
 
 Example of a Microfrontend application.
 
-- `app1` containers a Header
+- `header` containers a Header
 - `app2` containers a Footer
-- `login` contains a Login form which consumes the Header and Footer from `app1` and `app2`
+- `login` contains a Login form which consumes the Header and Footer from `header` and `app2`
 - `container` brings these 3 applications into 1, on a Dashboard page
 
 ## Running the applications

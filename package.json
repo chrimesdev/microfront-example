@@ -5,6 +5,6 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start": "lerna run start --scope container --scope app1 --scope app2 --scope login"
+    "start": "lerna run start --scope container --scope header --scope app2 --scope login"
   }
 }

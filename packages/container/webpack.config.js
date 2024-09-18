@@ -11,7 +11,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        app1: "app1@http://localhost:8081/remoteEntry.js",
+        header: "header@http://localhost:8081/remoteEntry.js",
         app2: "app2@http://localhost:8082/remoteEntry.js",
         login: "login@http://localhost:8083/remoteEntry.js",
       },

@@ -1,7 +1,7 @@
 {
   "packages": [
     "packages/container",
-    "packages/app1",
+    "packages/header",
     "packages/app2",
     "packages/login"
   ],
