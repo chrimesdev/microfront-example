@@ -1,3 +1,3 @@
 import "header/Header";
-import "app2/App2";
+import "footer/Footer";
 import "login/Login";

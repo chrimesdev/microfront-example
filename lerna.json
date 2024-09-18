@@ -2,7 +2,7 @@
   "packages": [
     "packages/container",
     "packages/header",
-    "packages/app2",
+    "packages/footer",
     "packages/login"
   ],
   "version": "0.0.0"
